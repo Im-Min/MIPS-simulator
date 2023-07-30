@@ -1,0 +1,15 @@
+1: LW r0 0x1
+2: LW r1 0x2
+3: LW r2 0x3
+4: LW r3 0x4
+5: ADD r4 r0 r1
+6: SUB r5 r3 r2
+7: DIV r6 r3 r1
+8: MOV r7 0x7
+9: MOV r8 r7
+10: BEQ r0 r1 0xC
+11: RST
+12: JMP 0xE
+13: BNE r0 r1
+14: SLT r9 r7 r8
+15: SW r9 STDOUT
